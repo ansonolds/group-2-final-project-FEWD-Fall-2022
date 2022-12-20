@@ -2,4 +2,5 @@
 Anson Olds, Aglaia Kilb, Sage Alvarado, Drimir Ferguson, Jing Wu, Dorette Ndongo
 
 Aglaia Kilb has menu.html
+<br>
 Anson Olds has index.html and contact.html
