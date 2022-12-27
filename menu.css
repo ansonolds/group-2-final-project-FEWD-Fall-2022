@@ -1,23 +1,69 @@
 body{
+    margin: 100px 50px 100px 50px;
+    background-color: rgb(245, 57, 73);
 
 }
+
+/* Font styling */
 
 h1 {
     font-family: gastromond, sans-serif;
     font-style: normal;
     font-weight: 400;
+    font-size: 50px;
+
+    
+}
+
+h2 {
+    font-family: gastromond, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
 }
 
 h3 {
     font-family: expo-serif-pro, serif;
     font-style: normal;
     font-weight: 300;
+    font-size: 26px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: rgb(212, 24, 40);
+}
+
+h4{
+    font-family: expo-serif-pro, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(212, 24, 40);
 }
 
 p{
     font-family: houschka-rounded, sans-serif;
     font-style: normal;
     font-weight: 200;
+    font-size: 15px;
+    
+}
+
+ul{
+    font-family: houschka-rounded, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+/* Nav Bar */
+
+nav{
+    font-family: houschka-rounded, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 5px;
 }
 
 /* grid stuff*/
@@ -29,17 +75,21 @@ p{
   }
 
 .coffeebox {
-    background-color: aquamarine;
+    background-color: rgb(252, 175, 185);
+    padding: 25px;
 }
 
 .teabox {
-    background-color: blanchedalmond;
+    background-color: rgb(252, 175, 185);
+    padding: 25px;
 }
 
 .pastrybox{
-    background-color: blue;
+    background-color: rgb(252, 175, 185);
+    padding: 25px;
 }
 
 .sandwichbox {
-    background-color: purple;
+    background-color: rgb(252, 175, 185);
+    padding: 25px;
 }
