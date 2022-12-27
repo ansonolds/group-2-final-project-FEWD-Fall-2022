@@ -1,7 +1,6 @@
 body{
     margin: 100px 50px 100px 50px;
     background-color: rgb(245, 57, 73);
-
 }
 
 /* Font styling */
@@ -11,8 +10,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
-
-    
+    text-align: center;
 }
 
 h2 {
@@ -20,7 +18,7 @@ h2 {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-
+    text-align: center;
 }
 
 h3 {
@@ -31,6 +29,7 @@ h3 {
     padding-bottom: 10px;
     text-transform: uppercase;
     color: rgb(212, 24, 40);
+    text-align: center;
 }
 
 h4{
@@ -39,6 +38,7 @@ h4{
     font-weight: 300;
     font-size: 18px;
     color: rgb(212, 24, 40);
+    text-align: center;
 }
 
 p{
@@ -46,14 +46,16 @@ p{
     font-style: normal;
     font-weight: 200;
     font-size: 15px;
-    
+    text-align: center;
 }
 
 ul{
     font-family: houschka-rounded, sans-serif;
     font-style: normal;
     font-weight: 200;
+    text-align: center;
 }
+
 
 /* Nav Bar */
 
@@ -71,7 +73,8 @@ nav{
 .menu {
     display: grid;
     gap: 20px;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto; 
+    justify-content: center;
   }
 
 .coffeebox {
