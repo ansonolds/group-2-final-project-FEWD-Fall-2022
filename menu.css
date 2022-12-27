@@ -1,6 +1,45 @@
+body{
+
+}
+
+h1 {
+    font-family: gastromond, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: expo-serif-pro, serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+p{
+    font-family: houschka-rounded, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+/* grid stuff*/
+
 .menu {
     display: grid;
-    row-gap: 20px;
+    gap: 20px;
     grid-template-columns: auto auto;
   }
 
+.coffeebox {
+    background-color: aquamarine;
+}
+
+.teabox {
+    background-color: blanchedalmond;
+}
+
+.pastrybox{
+    background-color: blue;
+}
+
+.sandwichbox {
+    background-color: purple;
+}
