@@ -80,6 +80,7 @@ nav{
     letter-spacing: 5px;
     display: flex;
     justify-content: space-evenly;
+    flex-flow: ;
     width: 75%;
     margin: auto;
     background-color: rgb(250, 237, 196);
@@ -94,6 +95,7 @@ nav > a {
     color: black;
     text-decoration: none;
     background-color: lightblue;
+    text-align: center;
     width: 100%;
     padding: 20px 5%;
     
@@ -139,3 +141,14 @@ nav > a:hover {
     grid-template-columns: auto auto auto; 
     justify-content: space-evenly;
 }
+
+.grid-item {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.grid-item > img {
+    width: 50%;
+}
+    
