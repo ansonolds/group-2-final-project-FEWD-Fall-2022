@@ -68,7 +68,6 @@ ul{
     text-align: center;
 }
 
-
 /* Nav Bar */
 
 nav{
@@ -80,14 +79,13 @@ nav{
     letter-spacing: 5px;
     display: flex;
     justify-content: space-evenly;
-    flex-flow: ;
     width: 75%;
     margin: auto;
     background-color: rgb(250, 237, 196);
     color: black;
 }
 
-.menu-nav{
+.menu-nav > a {
     background-color: rgb(245, 57, 73);
 }
 
