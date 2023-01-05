@@ -262,7 +262,9 @@ nav > a.active {
         display: grid;
         grid-template-columns: auto; 
         justify-content: center;
-        .dropdown-content a {
+    }
+    
+    .dropdown-content a {
         display: flex;
         flex-direction: column;
     }
@@ -274,8 +276,6 @@ nav > a.active {
         width: 0;
     }
 }
-    
-    }
 
 
 
