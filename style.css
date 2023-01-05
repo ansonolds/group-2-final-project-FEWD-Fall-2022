@@ -49,7 +49,7 @@ h3 {
     font-size: 26px;
     padding-bottom: 10px;
     text-transform: uppercase;
-    color: rgb(212, 24, 40);
+    color: black;
     text-align: center;
 }
 
@@ -58,7 +58,7 @@ h4{
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
-    color: rgb(212, 24, 40);
+    color: black;
     text-align: center;
 }
 
@@ -164,32 +164,33 @@ nav > a.active {
 .dropdown-content a:hover {
     background-color: azure;
 }
+
 /* grid stuff*/
 
 .menu {
     display: grid;
     gap: 20px;
-    grid-template-columns: auto auto; 
+    grid-template-columns: 35% 35%; 
     justify-content: center;
   }
 
 .coffeebox {
-    background-color: rgb(252, 175, 185);
+    background-color: lightblue;
     padding: 25px;
 }
 
 .teabox {
-    background-color: rgb(252, 175, 185);
+    background-color: lightblue;
     padding: 25px;
 }
 
 .pastrybox{
-    background-color: rgb(252, 175, 185);
+    background-color: lightblue;
     padding: 25px;
 }
 
 .sandwichbox {
-    background-color: rgb(252, 175, 185);
+    background-color: lightblue;
     padding: 25px;
 }
 
@@ -239,6 +240,7 @@ nav > a.active {
         padding-right: 2.5%;
 
     }
+
 }
 
 @media screen and (max-width: 1005px) {
@@ -255,8 +257,12 @@ nav > a.active {
         display: flex;
         flex-direction: column;
     }
-
-    .dropdown-content a {
+    
+    .menu{
+        display: grid;
+        grid-template-columns: auto; 
+        justify-content: center;
+        .dropdown-content a {
         display: flex;
         flex-direction: column;
     }
@@ -268,4 +274,8 @@ nav > a.active {
         width: 0;
     }
 }
+    
+    }
+
+
 
