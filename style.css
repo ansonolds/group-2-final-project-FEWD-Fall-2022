@@ -114,6 +114,7 @@ nav > a:hover {
 
 nav > a.active {
     background-color: whitesmoke;
+    width: 100%;
 }
 
 .dropdown {
@@ -136,6 +137,32 @@ nav > a.active {
 
 .dropdown-content {
     display: none;
+    font-family: houschka-rounded, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(250, 237, 196);
+    color: black;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px 5%;
+}
+
+.dropdown a:hover {
+    background-color: azure;
+}
+
+.dropdown-content a:hover {
+    background-color: azure;
 }
 /* grid stuff*/
 
@@ -189,11 +216,6 @@ nav > a.active {
 
 /* Media Queries*/
 
-@media screen and (min-width: 1005px) {
-    #dropdown {
-        display: none;
-    }
-}
 @media screen and (max-width: 1800px) {
     .grid-buckets {
         grid-template-columns: 1fr;
@@ -212,7 +234,7 @@ nav > a.active {
         width: 50%;
     }
 
-    nav > a {
+    nav > a, nav > a.active {
         padding-left: 2.5%;
         padding-right: 2.5%;
 
@@ -223,9 +245,27 @@ nav > a.active {
     nav > a {
         display: none;
     }
-    #dropdown {
+
+    .dropdown {
         display: block;
+
     }
 
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropdown-content a {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1006px) {
+    .dropdown, .dropdown-content, #myDropdown, .dropdown-content a  {
+        display: none;
+        width: 0;
+    }
 }
 
