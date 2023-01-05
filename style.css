@@ -3,10 +3,6 @@ body {
     background-color: rgb(250, 237, 196);
 }
 
-.menu-body {
-    background-color: rgb(245, 57, 73);
-}
-
 
 main {
     width: 75%;
@@ -49,7 +45,7 @@ h3 {
     font-size: 26px;
     padding-bottom: 10px;
     text-transform: uppercase;
-    color: rgb(212, 24, 40);
+    color: black;
     text-align: center;
 }
 
@@ -58,7 +54,7 @@ h4{
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
-    color: rgb(212, 24, 40);
+    color: black;
     text-align: center;
 }
 
@@ -94,9 +90,6 @@ nav{
     color: black;
 }
 
-.menu-nav > a {
-    background-color: rgb(245, 57, 73);
-}
 
 nav > a {
     color: black;
@@ -137,32 +130,33 @@ nav > a.active {
 .dropdown-content {
     display: none;
 }
+
 /* grid stuff*/
 
 .menu {
     display: grid;
     gap: 20px;
-    grid-template-columns: auto auto; 
+    grid-template-columns: 25% 25%; 
     justify-content: center;
   }
 
 .coffeebox {
-    background-color: rgb(252, 175, 185);
+    background-color: lightblue;
     padding: 25px;
 }
 
 .teabox {
-    background-color: rgb(252, 175, 185);
+    background-color: lightblue;
     padding: 25px;
 }
 
 .pastrybox{
-    background-color: rgb(252, 175, 185);
+    background-color: lightblue;
     padding: 25px;
 }
 
 .sandwichbox {
-    background-color: rgb(252, 175, 185);
+    background-color: lightblue;
     padding: 25px;
 }
 
@@ -193,7 +187,9 @@ nav > a.active {
     #dropdown {
         display: none;
     }
+
 }
+
 @media screen and (max-width: 1800px) {
     .grid-buckets {
         grid-template-columns: 1fr;
@@ -217,6 +213,7 @@ nav > a.active {
         padding-right: 2.5%;
 
     }
+
 }
 
 @media screen and (max-width: 1005px) {
@@ -226,6 +223,14 @@ nav > a.active {
     #dropdown {
         display: block;
     }
+    
+    .menu{
+        display: grid;
+        grid-template-columns: auto; 
+        justify-content: center;
+    }
+    
+    }
 
-}
+
 
