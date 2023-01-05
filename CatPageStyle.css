@@ -1,0 +1,242 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+h1{
+    text-align: center;
+}
+.text {
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.Alexander{
+    position: relative;
+    height:100%;
+}
+.AOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #98a7ac;
+  }
+.Alexander:hover .AOverlay {
+    opacity: 1;
+}
+.Cyrus{
+    padding-top: 10%;
+    position: relative;
+}
+.COverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #98a7ac;
+  }
+  .Cyrus:hover .COverlay {
+    opacity: 1;
+}
+
+.Jack{
+    padding-top: 1%;
+    position: relative;
+}
+.JOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #98a7ac;
+  }
+  .Jack:hover .JOverlay {
+    opacity: 1;
+}
+.Jae{
+    padding-top: 2%;
+    position: relative;
+}
+.JAOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #98a7ac;
+  }
+  .Jae:hover .JAOverlay {
+    opacity: 1;
+}
+.Kote{
+    padding-top: 40%;
+    position: relative;
+}
+.KOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #98a7ac;
+  }
+  .Kote:hover .KOverlay {
+    opacity: 1;
+}
+.Loen{
+    padding-top: 14%;
+    position: relative;
+}
+.LOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #98a7ac;
+  }
+  .Loen:hover .LOverlay {
+    opacity: 1;
+}
+.Nord{
+    padding-top: 15%;
+    position: relative;
+}
+.NOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #98a7ac;
+  }
+  .Nord:hover .NOverlay {
+    opacity: 1;
+}
+.Manja{
+    padding-top: 42%;
+    position: relative;
+}
+.MOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #98a7ac;
+  }
+  .Manja:hover .MOverlay {
+    opacity: 1;
+}
+.Raina{
+    padding-top: 1%;
+    position: relative;
+}
+.ROverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #98a7ac;
+  }
+  .Raina:hover .ROverlay {
+    opacity: 1;
+}
+.Teasel{
+    padding-top: 2%;
+    position: relative;
+}
+.TOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #98a7ac;
+  }
+  .Teasel:hover .TOverlay {
+    opacity: 1;
+}
+.Sylvester{
+    padding-top: 13%;
+    position: relative;
+}
+.SOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #98a7ac;
+  }
+  .Sylvester:hover .SOverlay {
+    opacity: 1;
+}
+.Zoe{
+    padding-top: 3%;
+    position: relative;
+}
+.ZOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #98a7ac;
+  }
+  .Zoe:hover .ZOverlay {
+    opacity: 1;
+}
