@@ -112,6 +112,31 @@ nav > a:hover {
     background-color: azure;
 }
 
+nav > a.active {
+    background-color: whitesmoke;
+}
+
+.dropdown {
+    background-color: lightblue;
+    width: 100%;
+}
+
+.dropdown:hover {
+    background-color: azure;
+}
+
+.dropdown p {
+    font-family: houschka-rounded, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.dropdown-content {
+    display: none;
+}
 /* grid stuff*/
 
 .menu {
@@ -164,6 +189,11 @@ nav > a:hover {
 
 /* Media Queries*/
 
+@media screen and (min-width: 1005px) {
+    #dropdown {
+        display: none;
+    }
+}
 @media screen and (max-width: 1800px) {
     .grid-buckets {
         grid-template-columns: 1fr;
@@ -187,5 +217,15 @@ nav > a:hover {
         padding-right: 2.5%;
 
     }
+}
+
+@media screen and (max-width: 1005px) {
+    nav > a {
+        display: none;
+    }
+    #dropdown {
+        display: block;
+    }
+
 }
 
