@@ -11,14 +11,34 @@
 <body class="menu-body">
 
     <header>
-        <nav class="nav">
+        <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
-            <a href="menu.html">Menu</a>
+            <a href="menu.html" class="active">Menu</a>
             <a href="cat-page.html">Cats</a>
             <a href="visit.html">Visit</a>
             <a href="contact.html">Contact</a>
+            <div class="dropdown" onclick="myDropdown()"><p>Menu</p></div>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html" class="active">Menu</a>
+                <a href="cat-page.html">Cats</a>
+                <a href="visit.html">Visit</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </nav>
+        <!--Dropdown Script-->
+        <script>
+            function myDropdown() {
+              var x = document.getElementById("myDropdown");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        </script>
     </header>
 
         <h1>Menu</h1>
