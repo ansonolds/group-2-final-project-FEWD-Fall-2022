@@ -136,7 +136,7 @@ nav > a.active {
 .menu {
     display: grid;
     gap: 20px;
-    grid-template-columns: 25% 25%; 
+    grid-template-columns: 35% 35%; 
     justify-content: center;
   }
 
