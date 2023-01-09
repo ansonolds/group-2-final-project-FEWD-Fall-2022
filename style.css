@@ -72,6 +72,15 @@ ul{
     text-align: center;
 }
 
+.about {
+    padding: 20px;
+}
+
+.poop{
+    text-align: left;
+    line-height: 200%;
+}
+
 /* Nav Bar */
 
 nav{
