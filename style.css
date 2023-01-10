@@ -75,6 +75,15 @@ ul{
 .logo {
     width: 50px;
 }
+.about {
+    padding: 20px;
+}
+
+.poop{
+    text-align: left;
+    line-height: 200%;
+}
+
 /* Nav Bar */
 
 nav{
