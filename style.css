@@ -84,6 +84,10 @@ ul{
     line-height: 200%;
 }
 
+.visit{
+    padding: 20px;
+}
+
 /* Nav Bar */
 
 nav{
@@ -203,7 +207,7 @@ footer {
     background-color: antiquewhite;
 }
 
-/* grid stuff*/
+/* menu stuff*/
 
 .menu {
     display: grid;
