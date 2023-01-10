@@ -72,6 +72,9 @@ ul{
     text-align: center;
 }
 
+.logo {
+    width: 50px;
+}
 /* Nav Bar */
 
 nav{
@@ -164,6 +167,33 @@ nav > a.active {
     background-color: whitesmoke;
 }
 
+footer {
+    background-color: antiquewhite;
+    padding: 20px 0;
+    width: 75%;
+    margin: auto;
+}
+
+.footer-nav {
+    background-color: antiquewhite;
+    padding: 0;
+}
+
+.footer-nav a {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.footer-nav a:hover {
+    background-color: antiquewhite;
+}
+
+.footer-nav a.active {
+    background-color: antiquewhite;
+}
+
 /* grid stuff*/
 
 .menu {
@@ -208,6 +238,9 @@ nav > a.active {
 
 .grid-item {
     text-decoration: none;
+    text-align: center;
+    overflow-wrap: normal;
+    
 }
 
 .grid-item > img {
