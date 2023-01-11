@@ -1,23 +1,139 @@
-.grid{
+body {
+    margin: 100px 50px 100px 50px;
+    background-color: rgb(250, 237, 196);
+}
+
+.menu-body {
+    background-color: rgb(245, 57, 73);
+}
+
+
+main {
+    width: 75%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+main p {
+    padding: 0 40px;
+}
+
+/* Font styling */
+
+h1 {
+    font-family: gastromond, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: gastromond, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.index-h2 {
+    font-size: 30px;
+    margin: 5px;
+}
+
+h3 {
+    font-family: expo-serif-pro, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: rgb(212, 24, 40);
+    text-align: center;
+}
+
+h4{
+    font-family: expo-serif-pro, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(212, 24, 40);
+    text-align: center;
+}
+
+p{
+    font-family: houschka-rounded, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+}
+
+ul{
+    font-family: houschka-rounded, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* Nav Bar */
+
+nav{
+    font-family: houschka-rounded, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: auto;
+    background-color: rgb(250, 237, 196);
+    color: black;
+}
+
+.menu-nav > a {
+    background-color: rgb(245, 57, 73);
+}
+
+nav > a {
+    color: black;
+    text-decoration: none;
+    background-color: lightblue;
+    text-align: center;
+    width: 100%;
+    padding: 20px 5%;
+    
+}
+
+nav > a:hover {
+    background-color: azure;
+}
+
+
+
+.CatGrid{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 20px;
+    gap: 10px;
     justify-content: space-evenly;
     border: 2px solid black;
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
 h1{
     text-align: center;
 }
-.text {
+.cattext {
     color: black;
-    font-size: 15px;
+    font-size: 13px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50% ;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
