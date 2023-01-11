@@ -85,7 +85,14 @@ ul{
 }
 
 .visit{
+    display: flex;
+    flex-flow: column wrap;
     padding: 20px;
+    justify-content: center;
+}
+
+div.visit iframe {
+    margin: auto;
 }
 
 /* Nav Bar */
@@ -214,6 +221,7 @@ footer {
     gap: 20px;
     grid-template-columns: 35% 35%; 
     justify-content: center;
+    padding-bottom: 50px;
   }
 
 .coffeebox {
