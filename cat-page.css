@@ -3,11 +3,6 @@ body {
     background-color: rgb(250, 237, 196);
 }
 
-.menu-body {
-    background-color: rgb(245, 57, 73);
-}
-
-
 main {
     width: 75%;
     margin: 0 auto;
@@ -15,9 +10,8 @@ main {
 }
 
 main p {
-    padding: 0 40px;
+    padding: 0 50px;
 }
-
 /* Font styling */
 
 h1 {
@@ -28,13 +22,14 @@ h1 {
     text-align: center;
     padding-top: 10px;
     margin-top: 0;
+    text-align: center;
 }
 
 h2 {
     font-family: gastromond, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
 }
 
@@ -50,7 +45,7 @@ h3 {
     font-size: 26px;
     padding-bottom: 10px;
     text-transform: uppercase;
-    color: rgb(212, 24, 40);
+    color: black;
     text-align: center;
 }
 
@@ -59,7 +54,7 @@ h4{
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
-    color: rgb(212, 24, 40);
+    color: black;
     text-align: center;
 }
 
@@ -76,6 +71,29 @@ ul{
     font-style: normal;
     font-weight: 200;
     text-align: center;
+}
+
+.logo {
+    width: 50px;
+}
+.about {
+    padding: 20px;
+}
+
+.poop{
+    text-align: left;
+    line-height: 200%;
+}
+
+.visit{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+div.visit iframe {
+    margin: auto;
 }
 
 /* Nav Bar */
@@ -113,7 +131,91 @@ nav > a:hover {
     background-color: azure;
 }
 
+nav > a.active {
+    background-color: whitesmoke;
+    width: 100%;
+}
 
+.dropdown {
+    background-color: lightblue;
+    width: 100%;
+}
+
+.dropdown:hover {
+    background-color: azure;
+}
+
+.dropdown p {
+    font-family: houschka-rounded, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    font-family: houschka-rounded, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(250, 237, 196);
+    color: black;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px 5%;
+}
+
+.dropdown a:hover {
+    background-color: azure;
+}
+
+.dropdown-content a:hover {
+    background-color: azure;
+}
+
+.dropdown-content a.active {
+    background-color: whitesmoke;
+}
+
+footer {
+    background-color: antiquewhite;
+    padding: 20px 0;
+    width: 75%;
+    margin: auto;
+}
+
+.footer-nav {
+    background-color: antiquewhite;
+    padding: 0;
+}
+
+.footer-nav a {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.footer-nav a:hover {
+    background-color: antiquewhite;
+}
+
+.footer-nav a.active {
+    background-color: antiquewhite;
+}
+
+/* Cat Grid */
 
 .CatGrid{
     display: grid;
@@ -125,9 +227,6 @@ nav > a:hover {
     padding-bottom: 20px;
 }
 
-h1{
-    text-align: center;
-}
 .cattext {
     color: black;
     font-size: 13px;
@@ -356,3 +455,66 @@ h1{
   .Zoe:hover .ZOverlay {
     opacity: 1;
 }
+
+/* media queries */
+
+@media screen and (max-width: 1800px) {
+    .grid-buckets {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        grid-row-gap: 20px;
+        
+    }
+
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-item img {
+        width: 50%;
+    }
+
+    nav > a, nav > a.active {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+
+    }
+
+}
+
+@media screen and (max-width: 1005px) {
+    nav > a {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu{
+        display: grid;
+        grid-template-columns: auto; 
+        justify-content: center;
+    }
+    
+    .dropdown-content a {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1006px) {
+    .dropdown, .dropdown-content, #myDropdown, .dropdown-content a  {
+        display: none;
+        width: 0;
+    }
+}
+
