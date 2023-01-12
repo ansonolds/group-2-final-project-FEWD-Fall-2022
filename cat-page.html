@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="cat-page.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kgd2nkg.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,13 +14,21 @@
         <img>
         <!--Nav Bar-->
         <nav>
-            <a href="index.html">Home</a>
+            <a href="index.html" class="active">Home</a>
             <a href="about.html">About</a>
             <a href="menu.html">Menu</a>
-            <a href="cat-page.html" class="active">Cats</a>
+            <a href="cat-page.html">Cats</a>
             <a href="visit.html">Visit</a>
             <a href="contact.html">Contact</a>
-            <div class="dropdown" onclick="myDropdown()
+            <div class="dropdown" onclick="myDropdown()"><p>Menu</p></div>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="cat-page.html">Cats</a>
+                <a href="visit.html">Visit</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </nav>
         <!--Dropdown Script-->
         <script>
@@ -34,9 +43,9 @@
         </script>
     </header>
        <body>
-
-        <h1>Find your new Furry Friend!</h1>
-
+        <main>
+        <h1 class="cat-h1">Find your new Furry Friend!</h1>
+        
         <div class="CatGrid">
             
             <div class="Alexander"> 
