@@ -12,6 +12,15 @@ main {
 main p {
     padding: 0 50px;
 }
+/* banner image*/
+
+#bannerimg {
+    display: flex;
+    margin: -100px auto 0 auto;
+    justify-content: center;
+    width: 75%;
+
+}
 /* Font styling */
 
 h1 {
