@@ -3,10 +3,10 @@ Anson Olds, Aglaia Kilb, Sage Alvarado, Drimir Ferguson, Jing Wu, Dorette Ndongo
 
 Concept: Cat Cafe
 
-Aglaia Kilb has menu.html
+Aglaia Kilb created menu.html, visit.html, font styling, graphic design
 <br>
-Anson Olds has index.html
+Anson Olds created index.html, style.css, CSS design, Header & Footer Nav
 <br>
-Drimir Ferguson has contact.html
+Drimir Ferguson has the contact page (iindex.html & sstyle.css)
 <br>
-Sage Alvarado has cats.html
+Sage Alvarado created cat-page.html & cat-page.css
