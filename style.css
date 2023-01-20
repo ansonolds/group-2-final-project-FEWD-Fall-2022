@@ -297,6 +297,37 @@ footer {
     padding-bottom: 20px;
 }
 
+/* contact stuff*/
+.contact-form {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#name {
+    width: 200px;
+    margin-bottom: 10px;
+}
+#email {
+    width: 200px;
+    margin-bottom: 10px;
+}
+#subject {
+    width: 200px;
+    margin-bottom: 10px;
+}
+.question-field {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 10px;
+}
+#submit {
+    width: 100px;
+    align-self: center;
+}
+
 /* Media Queries*/
 
 @media screen and (max-width: 1800px) {

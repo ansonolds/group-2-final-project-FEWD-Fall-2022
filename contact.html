@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kgd2nkg.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <!--Banner Image-->
+        <img>
+        <!--Nav Bar-->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="cat-page.html">Cats</a>
+            <a href="visit.html">Visit</a>
+            <a href="contact.html" class="active">Contact</a>
+            <div class="dropdown" onclick="myDropdown()"><p>Menu</p></div>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="cat-page.html">Cats</a>
+                <a href="visit.html">Visit</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </nav>
+        <!--Dropdown Script-->
+        <script>
+            function myDropdown() {
+              var x = document.getElementById("myDropdown");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        </script>
+    </header>
+    <main>
+        <h1> Contact Us!</h1>
+        <form class="contact-form">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name" value="Your Name"required>
+            <label for="email">Enter your email address: </label>
+            <input type="text" name="email" id="email" value="your.email@example.com" required>
+            <label for="subject">Subject: </label>
+            <input type="text" name="subject" id="subject" value="The topic of your message" required>
+            <div class="question-field">
+            <label for="question">Enter your question or comment here: </label>
+            <textarea name="question" id="question" rows="10" required>Thank you so much for reaching out!</textarea>
+            </div>
+            <label for="submit"></label>
+            <input type="button" name="submit" id="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <nav class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="cat-page.html">Cats</a>
+            <a href="visit.html">Visit</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <p>Follow us on Social Media: <a href="#"><img src="/logos/meowbook.png" alt="meowbook" class="logo"></a><a href="#"><img src="/logos/smilechat.png" alt="smilechat" class="logo"></a>We accept payment through:<a href="#"><img src="/logos/instabucks.png" alt="instabuck" class="logo"></a></p>
+    </footer>
+</body>
+</html>
